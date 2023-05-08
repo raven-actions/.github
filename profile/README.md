@@ -1,4 +1,4 @@
-![Raven Actions](../assets/images/banner_raven-actions.svg)
+![Raven Actions](https://github.com/raven-actions/.github/blob/main/assets/images/banner_raven-actions.svg)
 
 `Raven-Actions` is an organization (aka project codename `raven`) led by [@DariuszPorowski](https://github.com/DariuszPorowski) that aims to develop, maintain, store, and publish all of the [GitHub Actions](https://github.com/features/actions) he has created.
 
