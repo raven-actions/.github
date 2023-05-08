@@ -1,4 +1,20 @@
-## Hi there 👋
+![Raven Actions](../assets/images/banner_raven-actions.svg)
+
+`Raven-Actions` is an organization (aka project codename `raven`) led by [@DariuszPorowski](https://github.com/DariuszPorowski) that aims to develop, maintain, store, and publish all of the [GitHub Actions](https://github.com/features/actions) he has created.
+
+---
+
+## Project goals
+
+The main goal of the project is to publish GitHub Actions that are:
+
+- open-sourced
+- platform independent (runs on all GitHub Runners natively `Linux`, `Windows`, and `macOS`)
+- maintained on a regular cadence
+
+## Contact
+
+How to reach out to Dariusz? Ping him on [Twitter](https://twitter.com/DariuszPorowski) or [LinkedIn](https://www.linkedin.com/in/DariuszPorowski)
 
 <!--
 
