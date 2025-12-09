@@ -1,0 +1,14 @@
+# docs: https://github.com/PaddleHQ/repo-file-sync-action?tab=readme-ov-file#advanced-sync-config
+# nunjucks template: https://mozilla.github.io/nunjucks/templating.html
+---
+group:
+  # source: https://github.com/orgs/radius-project/repositories?q=archived%3Afalse+sort%3Aname-asc
+  repos: |
+    raven-actions/.github
+
+  files:
+    - source: sync-templates/.editorconfig
+      dest: .editorconfig
+
+    - source: workflow-templates/dependency-review.yml
+      dest: .github/workflows/dependency-review.yml
