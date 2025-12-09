@@ -1,7 +1,7 @@
 {
   "name": "Dependency Review",
   "description": "Dependency Review workflow template.",
-  "iconName": "pattern-ruby-devel",
+  "iconName": "package-dependencies",
   "categories": [
     "dependency-management"
   ],
