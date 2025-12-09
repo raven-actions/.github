@@ -35,8 +35,8 @@ jobs:
         uses: actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf # v2.2.1
         id: get-token
         with:
-          app-id: ${{ secrets.RADIUS_SYNC_BOT_APP_ID }}
-          private-key: ${{ secrets.RADIUS_SYNC_BOT_PRIVATE_KEY }}
+          app-id: ${{ secrets.SYNC_BOT_APP_ID }}
+          private-key: ${{ secrets.SYNC_BOT_PRIVATE_KEY }}
           owner: ${{ github.repository_owner }}
           permission-metadata: read
           permission-contents: write
