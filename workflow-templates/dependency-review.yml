@@ -18,7 +18,7 @@ permissions: {}
 
 jobs:
   dependency-review:
-    uses: raven-actions/.github/.github/workflows/__dependency-review.yml@849bd0778471906ad88960444ab2fbbf4f6139b9
+    uses: raven-actions/.github/.github/workflows/__dependency-review.yml@main
     permissions:
       contents: read
       pull-requests: write
