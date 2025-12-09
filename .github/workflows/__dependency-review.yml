@@ -9,7 +9,7 @@
 #
 # Source repository: https://github.com/actions/dependency-review-action
 ---
-name: Dependency Review
+#name: Dependency Review
 
 on:
   workflow_call:
