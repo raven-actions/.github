@@ -1,0 +1,57 @@
+# Code Owners for 
+# Generated from template - do not edit directly
+
+# General maintainers and approvers for the entire repository
+* NaN NaN
+
+# Dependency files - on-call can also approve these (Dependabot, etc.)
+
+# Node.js
+**/package.json           NaN NaN @raven-actions/on-call
+**/package-lock.json      NaN NaN @raven-actions/on-call
+**/pnpm-lock.yaml         NaN NaN @raven-actions/on-call
+**/yarn.lock              NaN NaN @raven-actions/on-call
+**/.nvmrc                 NaN NaN @raven-actions/on-call
+**/.npmrc                 NaN NaN @raven-actions/on-call
+**/.node-version          NaN NaN @raven-actions/on-call
+**/tsconfig.json          NaN NaN @raven-actions/on-call
+**/tsconfig.*.json        NaN NaN @raven-actions/on-call
+**/*.tsconfig.json        NaN NaN @raven-actions/on-call
+
+# Go
+**/go.mod                 NaN NaN @raven-actions/on-call
+**/go.sum                 NaN NaN @raven-actions/on-call
+**/go.work                NaN NaN @raven-actions/on-call
+**/go.work.sum            NaN NaN @raven-actions/on-call
+**/.go-version            NaN NaN @raven-actions/on-call
+
+# .NET
+**/*.csproj               NaN NaN @raven-actions/on-call
+**/*.sln                  NaN NaN @raven-actions/on-call
+**/nuget.config           NaN NaN @raven-actions/on-call
+**/global.json            NaN NaN @raven-actions/on-call
+
+# Python
+**/requirements.txt       NaN NaN @raven-actions/on-call
+**/pyproject.toml         NaN NaN @raven-actions/on-call
+**/uv.lock                NaN NaN @raven-actions/on-call
+**/poetry.lock            NaN NaN @raven-actions/on-call
+**/Pipfile                NaN NaN @raven-actions/on-call
+**/Pipfile.lock           NaN NaN @raven-actions/on-call
+**/.python-version        NaN NaN @raven-actions/on-call
+
+# Rust
+**/Cargo.toml             NaN NaN @raven-actions/on-call
+**/Cargo.lock             NaN NaN @raven-actions/on-call
+
+# Bicep
+**/bicepconfig.json       NaN NaN @raven-actions/on-call
+
+# Container files
+**/Dockerfile             NaN NaN @raven-actions/on-call
+**/*.Dockerfile           NaN NaN @raven-actions/on-call
+**/.devcontainer/*.json   NaN NaN @raven-actions/on-call
+
+# GitHub workflows
+.github/workflows/*.yml   NaN NaN @raven-actions/on-call
+.github/workflows/*.yaml  NaN NaN @raven-actions/on-call
