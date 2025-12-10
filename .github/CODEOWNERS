@@ -1,0 +1,57 @@
+# Code Owners for 
+# Generated from template - do not edit directly
+
+# General maintainers and approvers for the entire repository
+* @raven-actions/maintainers-undefined @raven-actions/approvers-undefined
+
+# Dependency files - on-call can also approve these (Dependabot, etc.)
+
+# Node.js
+**/package.json           @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/package-lock.json      @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/pnpm-lock.yaml         @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/yarn.lock              @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/.nvmrc                 @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/.npmrc                 @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/.node-version          @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/tsconfig.json          @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/tsconfig.*.json        @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/*.tsconfig.json        @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+
+# Go
+**/go.mod                 @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/go.sum                 @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/go.work                @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/go.work.sum            @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/.go-version            @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+
+# .NET
+**/*.csproj               @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/*.sln                  @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/nuget.config           @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/global.json            @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+
+# Python
+**/requirements.txt       @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/pyproject.toml         @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/uv.lock                @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/poetry.lock            @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/Pipfile                @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/Pipfile.lock           @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/.python-version        @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+
+# Rust
+**/Cargo.toml             @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/Cargo.lock             @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+
+# Bicep
+**/bicepconfig.json       @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+
+# Container files
+**/Dockerfile             @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/*.Dockerfile           @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+**/.devcontainer/*.json   @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+
+# GitHub workflows
+.github/workflows/*.yml   @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
+.github/workflows/*.yaml  @raven-actions/maintainers-undefined @raven-actions/approvers-undefined @raven-actions/on-call
