@@ -12,3 +12,10 @@ group:
 
     - source: workflow-templates/dependency-review.yml
       dest: .github/workflows/dependency-review.yml
+
+    - source: sync-templates/.github/CODEOWNERS.njk
+      dest: .github/CODEOWNERS
+      template:
+        maintainers-prefix: "@raven-actions/maintainers-"
+        approvers-prefix: "@raven-actions/approvers-"
+        oncall: "@raven-actions/on-call"
